@@ -29,7 +29,10 @@ def initial_round
 end
 
 def hit?
-  puts "Please enter a valid command"
+  valid_inputs = ["h", "s"]
+
+  prompt_user
+  user_input = get_user_input
 end
 
 def invalid_command
